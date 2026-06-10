@@ -1574,7 +1574,7 @@ function loadWorldCupDropdown() {
       const dd = $("worldcupDropdown");
       if (!dd) return;
 
-      dd.innerHTML = `<option value="">Select World Cup</option>`;
+      dd.innerHTML = `<option value="">World Cup</option>`;
       worldCupsList.forEach(wc => {
         const opt = document.createElement("option");
         opt.value = wc.year;
